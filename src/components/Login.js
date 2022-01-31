@@ -21,6 +21,7 @@ const Login = () => {
             <h1>Welcome to your professional community</h1>
           </Hero>
           <StyledImage src="/images/LI-SideImage.svg" alt="" />
+          Sign in with Google
         </Section>
       </Main>
     </LoginContainer>
