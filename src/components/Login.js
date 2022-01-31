@@ -28,22 +28,22 @@ const LoginContainer = styled.div`
 const Nav = styled.nav`
   max-width: 1128px;
   margin: auto;
-  padding: 12px 16px 12px 16px;
+  padding: 0.75rem 1rem 0.75rem 1rem;
   display: flex;
-  height: 32px;
+  height: 2rem;
   align-items: center;
   position: relative;
   justify-content: space-between;
   flex-wrap: nowrap;
   @media (max-width: 1161px) {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   @media (max-width: 769px) {
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
   }
 
   > a:nth-of-type(1) {
@@ -77,10 +77,9 @@ const Nav = styled.nav`
 `;
 
 const Join = styled.a`
-  font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   padding: 0 8px;
-  line-height: 32px;
+  line-height: 2rem;
   display: inline-block;
   text-decoration: none;
   border-radius: 4px;
@@ -100,12 +99,12 @@ const SignIn = styled.a`
   color: #0a66c2;
   cursor: pointer;
   display: inline-block;
-  line-height: 32px;
-  border-radius: 24px;
-  font-size: 16px;
+  line-height: 2rem;
+  border-radius: 1.5rem;
+  font-size: 1rem;
   font-weight: 600;
   outline-width: 2px;
-  padding: 0 16px;
+  padding: 0 1rem;
   text-align: center;
   text-decoration: none;
   &:hover {
