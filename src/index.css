@@ -6,6 +6,7 @@ body {
 :root,
 body,
 html {
+  font-size: 100%;
   margin: 0;
   padding: 0;
   border: 0;
@@ -24,6 +25,7 @@ header,
 html,
 img,
 label,
+button,
 li,
 nav,
 p,
@@ -35,7 +37,7 @@ ul {
   margin: 0;
   padding: 0;
   border: 0;
-  outline: none;
+  outline: 0;
   font-size: 100%;
   vertical-align: baseline;
   background: transparent;
